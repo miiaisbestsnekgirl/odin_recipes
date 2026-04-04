@@ -1,0 +1,60 @@
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+body {
+    background-color: thistle;
+}
+
+/*#lasagna-img {
+  width: 250px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border-radius: 10px;
+  
+}*/
+
+.nav.recipes-container,
+.nav.recipes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px !important;
+    padding: 40px 20px;
+}
+
+.recipe-card {
+    flex: 1 1 320px;
+    /* Allows cards to grow but won't shrink below 320px */
+    max-width: 380px;
+    /* Prevents cards from becoming too wide */
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0;
+}
+
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    display: block;
+    object-fit: cover;
+}
+
+.recipe-card p {
+    padding: 0 15px 20px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+}
